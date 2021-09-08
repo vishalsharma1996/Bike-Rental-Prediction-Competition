@@ -5,4 +5,6 @@ Here we are able to get the score in top 1% of the private leaderboard.
 
 EDA_BIKE_RENTAL_FE_MODELLING_REGISTERED_USERS & EDA_BIKE_RENTAL_FE_MODELLING_REGISTERED_USERS-->Both the file contains the code for EDA Feature Engineering Feature Selection and hyperparameter tuning.Now one needs to save both the train and test csv files so that it can be used for blending.
 
-Ensemble(Blending)-->This contains a detailed aprroach where 6 different tree based models are used as base models and a linear regression model is fitted on it.The final test prediction is made by this metal model and be saved as a csv file which will be used for the final submission.
+Ensemble(Blending)-->This contains a detailed aprroach where 6 different tree based models are used as base models and a linear regression model is fitted on it.The final test prediction is made by this metal model and be saved as a csv file.
+
+Final_pred-->This file contains the code for our final submission file where we will concatenate the readings from the blended model used for registered users and xgboost model used for the casual users.
